@@ -14,19 +14,33 @@
 </header>
 
 <div id="main">
-    <img src="img/image-450x300.jpg"
-         class="mi-trigger"
-         alt="You must go ahead and follow the road"
-         data-modal="modal1"
-    >
+    <div class="gallery">
+        <img src="img/road.jpg"
+             class="mi-trigger"
+             alt="You must go ahead and follow the road"
+             data-modal="modal1"
+        >
+        <img src="img/sky.jpg"
+             class="mi-trigger"
+             alt="There are clouds but the sun is shining"
+             data-modal="modal1"
+        >
+        <img src="img/trees.jpg"
+             class="mi-trigger"
+             alt="Even in the middle of the wood there is light"
+             data-modal="modal1"
+        >
+    </div>
+
 </div>
 <div class="mi-wrapper is-closed" id="modal1">
     <span type="button" class="mi-close">X</span>
     <figure>
-        <img class="mi-image" src="img/image-900x600.jpg" alt="">
+        <img class="mi-image" src="img/road-fullsize.jpg" alt="">
         <figcaption></figcaption>
     </figure>
 </div>
+
 <script src="js/script.js"></script>
 </body>
 </html>

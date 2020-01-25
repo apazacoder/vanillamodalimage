@@ -9,10 +9,12 @@ html, body {
 header, #main {
   text-align: center; }
 
-.mi-trigger {
+.gallery .mi-trigger {
   border: 4px solid transparent;
-  transition: .35s; }
-  .mi-trigger:hover {
+  transition: .35s;
+  width: 300px;
+  height: auto; }
+  .gallery .mi-trigger:hover {
     cursor: pointer;
     border-color: #0277bd; }
 
