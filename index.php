@@ -9,25 +9,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>VanillaJS Modal Image</h1>
-<button class="btn-open-modal">Abrir modal</button>
-<div class="modal is-closed" id="vanilla-modal">
-    <div class="modal-wrapper">
-        <div class="modal-header">
-            <button type="button" class="btn-close-modal">X</button>
-            <h2>VanillaJS Modal</h2>
+<header>
+    <h1>VanillaJS Modal Image</h1>
+</header>
 
-        </div>
-        <div class="modal-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur deleniti dolore et excepturi
-                fugiat in, incidunt ipsum laborum minima minus molestias nostrum officiis quibusdam rem sit soluta velit
-                voluptates!</p>
-        </div>
-        <div class="modal-footer">
-            <p>This is the footer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, blanditiis
-                consectetur culpa, deserunt dolor eligendi excepturi fugit hic illo minima nam</p>
-        </div>
-    </div>
+<div id="main">
+    <img src="img/image-450x300.jpg"
+         class="mi-trigger"
+         alt="You must go ahead and follow the road"
+         data-modal="modal1"
+    >
+</div>
+<div class="mi-wrapper is-closed" id="modal1">
+    <span type="button" class="mi-close">X</span>
+    <figure>
+        <img class="mi-image" src="img/image-900x600.jpg" alt="">
+        <figcaption></figcaption>
+    </figure>
 </div>
 <script src="js/script.js"></script>
 </body>
